@@ -2,8 +2,5 @@
 
 # Installation
 <p> Step 1 : clone repo and checkout to master branch.</p>
-<p> Step 2 : </p>
-`composer install` 
-<p> Step 3 : </p> 
-`php artisan migrate`
-
+<p> Step 2 : composer install </p>
+<p> Step 3 : php artisan migrate </p> 
