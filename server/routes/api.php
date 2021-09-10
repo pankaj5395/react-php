@@ -19,11 +19,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 // Notes
-Route::post('add-note',[\App\Http\Controllers\ApiController::class,'addNote']);
-Route::post('notes',[\App\Http\Controllers\ApiController::class,'notes']);
-Route::post('delete-note/{id}',[\App\Http\Controllers\ApiController::class,'deleteNote']);
+Route::post('notes',[\App\Http\Controllers\ApiController::class,'addNote']);
+Route::get('notes',[\App\Http\Controllers\ApiController::class,'notes']);
+Route::delete('notes/{id}',[\App\Http\Controllers\ApiController::class,'deleteNote']);
 
 // Tags
-Route::post('tags',[\App\Http\Controllers\ApiController::class,'getTags']);
-Route::post('tags/add',[\App\Http\Controllers\ApiController::class,'addTag']);
-Route::post('tags/delete/{id}',[\App\Http\Controllers\ApiController::class,'deleteTag']);
+Route::get('tags',[\App\Http\Controllers\ApiController::class,'getTags']);
+Route::post('tags',[\App\Http\Controllers\ApiController::class,'addTag']);
+Route::delete('tags/{id}',[\App\Http\Controllers\ApiController::class,'deleteTag']);
