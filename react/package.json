@@ -1,8 +1,7 @@
 {
-  "name": "react-typescript",
+  "name": "react-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codebelt.github.io/react-redux-architecture",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",

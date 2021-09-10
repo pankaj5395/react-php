@@ -15,7 +15,7 @@ class TagBlock extends React.Component {
         this.props.dispatch(TagAction.requestDeleteTag(this.props.tag.id));
     }
     render() {
-        const {name, id} = this.props.tag
+        const {name} = this.props.tag
         return (
         
             <Grid>

@@ -4,7 +4,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import TagAction from '../../stores/app/TagsAction';
 import LoadingIndicator from '../components/loading-indicator/LoadingIndicator';
-import { Button, Header, Input, Grid} from 'semantic-ui-react'
+import { Header, Grid} from 'semantic-ui-react'
 import { selectRequesting } from '../../selectors/requesting/RequestingSelector';
 import TagBlock  from './components/tag-block/TagBlock';
 import AddTag from './components/add-tags/AddTag';

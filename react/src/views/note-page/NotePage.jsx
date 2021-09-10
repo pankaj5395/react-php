@@ -2,7 +2,6 @@ import styles from './NotePage.module.scss';
 
 import React from 'react';
 import { connect } from 'react-redux';
-import ShowsAction from '../../stores/app/TagsAction';
 import AddNote from './components/add-note/AddNote';
 import NoteBlock from './components/note-block/NoteBlock';
 import LoadingIndicator from '../components/loading-indicator/LoadingIndicator';

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import TagAction from '../../../../stores/app/TagsAction';
 import NoteAction from '../../../../stores/app/note/NoteAction';
-import { Button, Header, Image, Modal, Row , Input, Grid, TextArea} from 'semantic-ui-react'
+import { Button, Modal , Input, Grid, TextArea} from 'semantic-ui-react'
 const mapStateToProps = (state, ownProps) => ({
   tags: state.tags.tags,
 });
